@@ -49,7 +49,7 @@ body {
 
 /* Basic styling for buttons */
 .btn {
-    padding: 10px 20px;
+    padding: 8px 16px;
     margin: 20px;
     cursor: pointer;
     border: none;
