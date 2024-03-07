@@ -47,12 +47,26 @@ body {
     margin-bottom: 20px;
 }
 
+/* Basic styling for buttons */
 .btn {
     padding: 10px 20px;
     margin: 10px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    font-size: 1em; /* Use em units to ensure scalability */
+    transition: background-color 0.3s;
+}
+
+/* Make the buttons full-width and increase padding for mobile devices */
+@media screen and (max-width: 600px) {
+    .btn {
+        display: block;
+        width: calc(100% - 20px); /* 100% of the screen width minus the margin */
+        margin: 10px auto; /* Same size margin for top, bottom, and center the button */
+        padding: 15px 0; /* Increased padding for a taller button, easier to tap */
+        font-size: 1.2em; /* Larger font size for better readability */
+    }
 }
 
 .reservation {
@@ -77,22 +91,4 @@ body {
 
 .info p {
     margin-bottom: 10px;
-}
-
-/* Responsive */
-@media screen and (max-width: 600px) {
-    .navbar a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
-    .btn {
-        display: block;
-        width: 100%;
-    }
-
-    .info {
-        padding: 0;
-    }
 }
