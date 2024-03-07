@@ -9,13 +9,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Notification Bar */
-.notification-bar {
-    background-color: #FFD700; /* Example color, choose what fits your brand */
-    color: black;
-    text-align: center;
-    padding: 5px;
-}
 
 /* Navigation Bar */
 .navbar {
@@ -36,6 +29,15 @@ body {
     background-color: #ddd;
     color: black;
 }
+
+/* Notification Bar */
+.notification-bar {
+    background-color: #FFD700; /* Example color, choose what fits your brand */
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
 
 /* Header */
 .header {
@@ -81,14 +83,16 @@ body {
 
 /* Information Section */
 .info {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
 .info h2 {
     margin-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 .info p {
     margin-bottom: 10px;
+    padding-bottom: 15px;
 }
