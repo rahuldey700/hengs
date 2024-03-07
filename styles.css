@@ -64,7 +64,7 @@ body {
         display: block;
         width: calc(100% - 80px); /* 100% of the screen width minus the margin */
         margin: 10px auto; /* Same size margin for top, bottom, and center the button */
-        padding: 15px 0; /* Increased padding for a taller button, easier to tap */
+        padding: 10px 0; /* Increased padding for a taller button, easier to tap */
         font-size: 1.2em; /* Larger font size for better readability */
     }
 }
